@@ -1,0 +1,16 @@
+{
+  "manifest_version": 2,
+
+  "name": "AAAA: The Anti-Atob-Anti-Adblocker",
+  "description": "Detect and efficiently block an anti-adblocker technique which relies upon the atob() Javascript function.",
+  "version": "1",
+
+  "content_scripts": [
+    {
+      "js": ["aaaa.js"],
+      "matches": ["<all_urls>"],
+      "run_at": "document_start"
+    }
+  ],
+  "permissions": ["<all_urls>"]
+}
