@@ -1,4 +1,4 @@
-'use script';
+'use strict';
 
 function aaaatob(a) {
   // The scripts in question are embedded into the source of the page.
