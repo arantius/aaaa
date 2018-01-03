@@ -3,7 +3,7 @@
 
   "name": "AAAA: The Anti-Atob-Anti-Adblocker",
   "description": "Detect and efficiently block an anti-adblocker technique which relies upon the atob() Javascript function.",
-  "version": "1",
+  "version": "2",
 
   "content_scripts": [
     {

@@ -1,7 +1,5 @@
 'use script';
 
-console.log('aaaa', 'doc', document.location, document.documentElement.outerHTML);
-
 function aaaatob(a) {
   // The scripts in question are embedded into the source of the page.
   // They, when decoded, all start
